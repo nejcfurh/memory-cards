@@ -322,7 +322,7 @@ input#addList + label.card > .title-div {
 }
 
 input#addList + label.card {
-  background-color: rgba(255, 255, 255, 0.24);
+  background-color: rgba(255, 255, 255, 0.23);
 }
 
 .card[for="List1"] {
