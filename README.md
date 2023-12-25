@@ -11,8 +11,8 @@ Delete Icon has been created by Ilham Fitrotul Hayat</p>
 
 <p>Vibrant look</p>
 
-![CardsPreview](https://github.com/NF-7/ToDoList-With-Mongoose/assets/101887698/d0742f07-5741-48d7-b7a1-df314b2002ce)
+![MemoryCards-Vibrant](https://github.com/NF-7/MemoryCards/assets/101887698/2d729fa7-e8c1-40d8-a00a-53824456b86f)
 
 <p>Dark look</p>
 
-![ScreenShot 2023-12-25 at 00 37 1](https://github.com/NF-7/ToDoList-With-Mongoose/assets/101887698/3077d13f-729f-4476-93ae-8c0e870d3166)
+![MemoryCards-Dark](https://github.com/NF-7/MemoryCards/assets/101887698/ea75945a-9e39-4bb4-a0e6-ee70d72da433)
