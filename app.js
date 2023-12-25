@@ -33,38 +33,6 @@ db.once('open', () => {
   console.log('Successfully connected to MongoDB');
 });
 
-// // ITEMS SCHEMA
-
-// const itemsSchema = {
-//   name: {
-//     required: true,
-//     type: String
-//   }
-// };
-
-// const Item = mongoose.model('item', itemsSchema);
-
-// const item1 = new Item({
-//   name: "Welcome to your To-Do List App!"
-// });
-// const item2 = new Item({
-//   name: "Hit the + button to add a new item!"
-// });
-// const item3 = new Item({
-//   name: "Mark check button to delete an item!"
-// });
-
-// const defaultItems = [item1, item2, item3];
-
-// // LIST SCHEMA
-
-// const listSchema = {
-//   name: String,
-//   items: [itemsSchema]
-// }
-
-// const List = mongoose.model('list', listSchema);
-
 // CARDS SCHEMA
 
 const cardSchema = {
@@ -127,9 +95,9 @@ app.get("/", function(req, res) {
       {
         if(cards.length === 0)
         {
-          Item.insertMany(defaultCards)
+          Card.insertMany(defaultCards)
           .then(function() {
-            console.log("Filled cards with defaultItems");
+            console.log("Filled cards with defaultCards");
           })
           .catch(function(err) {
             console.log(err);
@@ -184,7 +152,6 @@ const aboutContent =
 
   I am proactive, detail-oriented, and committed to continuous improvement.`
 
-
 app.get("/contact", function(req, res){
   res.render("contact", {about: aboutContent});
 });
@@ -203,6 +170,8 @@ const aboutAppContent =
 app.get("/about", function(req, res){
   res.render("about", {aboutApp: aboutAppContent});
 });
+
+// SERVER RUNNING LOG
  
 app.listen(3000, function() {
   console.log("Server started on port 3000");
