@@ -6,7 +6,7 @@
 <p align="center">To display the photos, HTML <input type="radio"> is used. App extensivelly uses flexbox CSS.</p>
 
 <p align="center">I am using free Unsplash.com stock images.</p>
-<p align="center">Delete Icon has been created by Ilham Fitrotul Hayat</p>
+<p align="center">Delete Icon has been created by Ilham Fitrotul Hayat. To change the color, you have to manually change the background property of the body. There are three options available, by default, the dark option is enabled.</p>
 <hr>
 <p align="center">Vibrant</p>
 
